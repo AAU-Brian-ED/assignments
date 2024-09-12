@@ -1,2 +1,6 @@
-sec-to-time/secs-to-time
-sec-to-time/secs-to-time-simple
+sec-to-time/seconds-to-time-big
+sec-to-time/seconds-to-time-simple
+sec-to-time/win_seconds-to-time.exe
+sec-to-time/win_seconds-to-time.pdb
+sec-to-time/linux_seconds-to-time
+sec-to-time/mac_seconds-to-time
