@@ -7,7 +7,7 @@
 //   I love using allignment to aid readability.
 
 
-// Exmplanation of how we convert seconds to minutes
+// Exmplanation of how we convert seconds to minutes, hours, etc.
 /*
   We get the amount of seconds as input, and want to convert it to minutes.
   For example, lets take 66.
@@ -22,7 +22,13 @@
   The answer is that 66 seconds is 66/60 minutes! :D
 
   Simply showing minutes and seconds is wrong.
-  If we did, the output would be 66 seconds and 1.2
+  If we did, the output would be 66 seconds and 1.1 minutes.
+  We want to have 6 seconds and 1 minute.
+  We remove the seconds by using fmod, because 66%60 is 6.
+  We remove the 0.1 in 1.1 minutes by rounding down, which means flooring.
+  Easiest way to floor in C is by converting to intiger, by doing (int)1.1, which gives 1.
+
+  Now we have 1 minute and 6 seconds. Same logic applies to hours, days, weeks, etc.
 */
 
 
