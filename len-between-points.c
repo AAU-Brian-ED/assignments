@@ -1,11 +1,5 @@
-
-#ifndef printf
-  #include <stdio.h>
-#endif
-
-#ifndef sqrt
-  #include <math.h>
-#endif
+#include <stdio.h>
+#include <math.h>
 
 typedef struct Vector2 {
   double x, y;
